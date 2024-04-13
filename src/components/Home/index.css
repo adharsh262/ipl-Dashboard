@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bgContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  font-family: 'Bree Serif';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 120vh;
+}
+.headingHomePageContainer {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.logoImg {
+  width: 25px;
+  margin-right: 10px;
+}
+.unorderedListTeamCard {
+  list-style-type: none;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  /* Write your CSS here */
+  .bgContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    background-size: cover;
+    height: 110vh;
+    font-family: 'Bree Serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .unorderedListConatainer {
+    margin-bottom: 150px;
+  }
+  .headingHomePageContainer {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 150px;
+  }
+  .logoImg {
+    width: 35px;
+    margin-right: 20px;
+  }
+  .unorderedListTeamCard {
+    list-style-type: none;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+}
